@@ -373,4 +373,4 @@ const LandingPage = () => {
               <FooterLinkTitle>Resources</FooterLinkTitle>
               <FooterLink to="/blog">Blog</FooterLink>
               <FooterLink to="/tutorials">Tutorials</FooterLink>
-              <FooterLink to="/help">Help Center</FooterLink
+              <FooterLink to="/help">Help Center</FooterLink>
