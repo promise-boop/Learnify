@@ -18,14 +18,14 @@ export const getAvailableModels = () => {
       isDefault: true
     },
     {
-      id: 'google/learnlm-1.5-pro-experimental:free',
+      id: 'thudm/glm-z1-32b:free',
       name: 'Google LearnLM 1.5 Pro',
       description: 'More powerful learning model with improved understanding of complex topics.',
       creditUsage: 3,
       isDefault: false
     },
     {
-      id: 'nvidia/llama-3.1-nemotron-ultra-253b-v1:free',
+      id: 'shisa-ai/shisa-v2-llama3.3-70b:free',
       name: 'NVIDIA Nemotron 253B',
       description: 'Advanced model with deep knowledge capabilities for complex subject matter.',
       creditUsage: 5,
