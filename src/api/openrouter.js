@@ -11,21 +11,21 @@ const MODEL_CREDIT_USAGE = {
 export const getAvailableModels = () => {
   return [
     {
-      id: 'reka-flash-3',
+      id: 'rekaai/reka-flash-3:free',
       name: 'Reka Flash 3',
       description: 'Default model that balances performance and credit usage.',
       creditUsage: 1,
       isDefault: true
     },
     {
-      id: 'google/learnlm-1.5-pro:experimental',
+      id: 'google/learnlm-1.5-pro-experimental:free',
       name: 'Google LearnLM 1.5 Pro',
       description: 'More powerful learning model with improved understanding of complex topics.',
       creditUsage: 3,
       isDefault: false
     },
     {
-      id: 'nvidia/nemotron-253b:free',
+      id: 'nvidia/llama-3.1-nemotron-ultra-253b-v1:free',
       name: 'NVIDIA Nemotron 253B',
       description: 'Advanced model with deep knowledge capabilities for complex subject matter.',
       creditUsage: 5,
